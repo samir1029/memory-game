@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Memory Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+ <div class="container">
     <h1>🧩 Memory Game</h1>
-
-    <div class="controls">
+ <div class="controls">
       <label for="level">Select Level:</label>
       <select id="level">
   <option value="easy">Easy</option>
@@ -18,17 +17,12 @@
   <option value="hard">Hard</option>
   <option value="superhard">Super Hard</option>
 </select>
-
-
       <button class="start-btn">Start Game</button>
       <button class="mode-toggle">💡</button>
-
-    </div>
-
-    <div class="score">Points: <span class="points">0</span></div>
-    <div class="game-board"></div>
   </div>
-
-  <script src="script.js"></script>
+  <div class="score">Points:<span class="points">0</span></div>
+  <div class="game-board"></div>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>
