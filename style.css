@@ -22,7 +22,6 @@ body {
 body.dark {
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 }
-
 .container {
   background: #ffffffcc;
   padding: 20px;
@@ -42,7 +41,6 @@ body.dark .container {
 h1 {
   margin-bottom: 10px;
 }
-
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -97,7 +95,6 @@ body.dark .card {
   color: #fff;
 }
 
-
 .gift-area {
   text-align: center;
   margin-top: 20px;
@@ -129,13 +126,13 @@ body.dark .card {
     grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: 8px;
   }
-
-  .card {
+  
+.card {
     font-size: 22px;
   }
 }
 
-  .gift-box {
+.gift-box {
     font-size: 40px;
   }
 
