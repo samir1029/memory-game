@@ -51,12 +51,11 @@ startBtn.onclick = function() {
   if (level === 'superhard') average = 50;
 
   alert(`🎁 If you want a gift, your points must be greater than ${average}!`);
-
-  startGame();
+startGame();
 };
 
 
-modeToggle.onclick = function() {
+  modeToggle.onclick = function() {
   document.body.classList.toggle('dark');
 };
 
@@ -81,8 +80,7 @@ function startGame() {
 
   flippedCards = [];
   lockBoard = false;
-
-  board.addEventListener('click', flipCard);
+ board.addEventListener('click', flipCard);
 }
 
 function flipCard(e) {
