@@ -14,7 +14,7 @@ This is a simple and fun Memory Game project made with **HTML, CSS, and JavaScri
 4. Score above average to unlock a surprise Gift!
 
 📁 Files
-- `index.html`
+- `Memory Game.html`
 - `style.css`
 - `script.js`
 
