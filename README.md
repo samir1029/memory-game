@@ -1,6 +1,8 @@
 🧩 Memory Game 🎮
 
-This is a simple and fun Memory Game project made with **HTML, CSS, and JavaScript**.🔥 Features
+This is a simple and fun Memory Game project made with **HTML, CSS, and JavaScript**.
+
+🔥 Features
 - ✅ Multiple Levels: Easy, Medium, Hard, Super Hard
 - ✅ Dark/Light Mode Toggle 💡
 - ✅ Points system with First Try Bonus
